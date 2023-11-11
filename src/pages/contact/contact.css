@@ -90,3 +90,38 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+@media screen and (max-width:720px) {
+
+
+    .contact-container {
+
+        align-items: center;
+    }
+
+   
+
+    .contact-container input, .contact-container textarea {
+
+        width: 200px;
+    }
+
+    .contact-forms img {
+
+        display: none;
+    }
+
+    .contact-forms {
+
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-container button {
+
+        width: 200px;
+    }
+
+
+    
+}
+

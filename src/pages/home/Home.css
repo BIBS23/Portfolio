@@ -139,3 +139,19 @@
     height: 700px;
     align-items: center;
 }
+
+@media screen and (max-width: 720px) {
+
+    .home-container {
+
+        width: auto;
+    }
+
+    .home-container img {
+
+        width: 400px;
+    }
+
+
+    
+}
