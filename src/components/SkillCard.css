@@ -15,21 +15,22 @@
 
     .skill-card {
 
-        width: 90px;
-        height: 90px;
+        width: 64px;
+        height: 64px;
+        border-radius: 10px;
         gap: 10px;
     }
 
 
     .skill-card img {
 
-        height: 40px;
+        height: 20px;
     
     }
     
     .skill-card h5 {
     
-        font-size: 12px;
+        font-size: 8px;
     
     
     }
