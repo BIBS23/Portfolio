@@ -46,6 +46,11 @@ a {
 
 @media screen and (max-width: 720px) {
 
+   .navbar {
+
+    padding: 5px;
+   }
+
     .menu-icon {
 
         display: flex;
