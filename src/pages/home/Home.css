@@ -147,13 +147,11 @@
 
     
 
-    
-
     .home-container img {
 
         width: 330px;
         top: 0;
-    
+        height: auto;
     }
     
     .line {
