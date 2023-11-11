@@ -145,6 +145,7 @@
 
 @media screen and (max-width: 720px) {
 
+    
 
     .home-container img {
 
@@ -183,9 +184,9 @@
     .intro {
 
         position: absolute;
-        width: 250px;
+        width: 270px;
         left: 26px;
-        top: 315px;
+        top: 490px;
     
     }
 
