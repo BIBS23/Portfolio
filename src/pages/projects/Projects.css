@@ -2,6 +2,7 @@
 .project-container {
 
     display: flex;
+    position: relative;
     height: 100vh;
     background-color: #2E3034;
     flex-direction: column;
@@ -54,4 +55,28 @@
     padding: 40px;
     width: 400px;
 
+}
+
+@media screen and (max-width:720px) {
+
+  .project-container {
+
+    display: flex;
+    height: auto;
+
+
+   
+  }
+
+  .project-section1 {
+
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    flex-direction: column;
+   
+}
+
+  
+    
 }
