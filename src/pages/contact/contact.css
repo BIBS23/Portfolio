@@ -1,0 +1,92 @@
+
+.contact-container {
+
+    display: flex;
+    height: 100vh;
+    width: auto;
+    background-color: #34353C;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-container input, .contact-container textarea {
+
+    background-color: transparent;
+    border-Color: #FFCE00;
+    width: 400px;
+    color:white;
+}
+
+.contact-container button {
+
+    border-radius: 10px;
+    border: none;
+    background-color: #FFCE00;
+
+
+}
+
+.contact-container input::placeholder, .contact-container textarea::placeholder{
+
+    color: #FFCE00;
+
+}
+
+.contact-container input:focus, .contact-container textarea:focus{
+
+    background-color: transparent;
+    color: white;
+}
+
+.contact-container label {
+    
+    color: white;
+}
+
+
+.contact-intro {
+    padding: 50px;
+    width: 450px;
+
+}
+
+.contact-forms {
+
+    display: flex;
+    gap: 40px;
+    width: 400px;
+}
+
+
+.contact-container h3 {
+
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-container p {
+
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+
+
+}
+
+.contact-container h5 {
+    color: #FFCE00;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
