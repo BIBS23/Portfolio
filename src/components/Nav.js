@@ -12,10 +12,10 @@ const Nav = () => {
     <nav className="navbar">
       <h1>BJ<span>.</span></h1>
       <div className="desktop-menu">
-        <a href='#'>Home</a>
-        <a href='#'>Skills</a>
-        <a href='#'>Projects</a>
-        <a href='#'>Contact</a>
+        <a href='#home'>Home</a>
+        <a href='#skills'>Skills</a>
+        <a href='#projects'>Projects</a>
+        <a href='#contact'>Contact</a>
       </div>
       <img
         className="menu-icon"
@@ -24,10 +24,10 @@ const Nav = () => {
         onClick={() => setShowMenu(!showMenu)} />
 
       <div className="mob-menu" style={{ display: showMenu ? 'flex' : 'none' }}>
-        <a href='#'>Home</a>
-        <a href='#'>Projects</a>
-        <a href='#'>Skills</a>
-        <a href='#'>Contact</a>
+        <a href='#home'>Home</a>
+        <a href='#skills'>Projects</a>
+        <a href='#projects'>Skills</a>
+        <a href='#contact'>Contact</a>
 
       </div>
     </nav>

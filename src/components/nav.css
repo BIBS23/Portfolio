@@ -54,6 +54,12 @@ a {
         padding: 1rem 1rem;
     }
 
+    .navbar h1 {
+
+        padding: 1rem 0.5rem;
+        font-size: 25px;
+    }
+
     .mob-menu {
 
         display: flex;

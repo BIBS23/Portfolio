@@ -15,7 +15,7 @@
 
     color: white;
     padding: 1px;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 3px;
     font-family: 'Open Sans', sans-serif;
 
@@ -64,7 +64,21 @@
     display: flex;
     height: auto;
 
+  }
 
+  .project-intro h3 {
+
+    overflow-y: hidden;
+  }
+
+  .project-title {
+
+    overflow-y: hidden;
+  }
+
+  .project-intro {
+
+    width: auto;
    
   }
 

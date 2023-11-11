@@ -126,7 +126,10 @@
 }
 
 .social-media a:hover {
-    text-decoration: underline;
+
+    text-decoration: none;
+    color: #FFCE00;
+  
 }
 
 
@@ -142,15 +145,74 @@
 
 @media screen and (max-width: 720px) {
 
-    .home-container {
-
-        width: auto;
-    }
 
     .home-container img {
 
-        width: 400px;
+        width: 330px;
+        top: 0;
+        height: auto;
     }
+    
+    .line {
+
+        z-index: 1;
+        top: 0;
+        top: 100px;
+        left: 19px;
+    }
+
+    .name h1:nth-of-type(1) {
+
+
+        left: 0;
+        top: 10px;
+        font-size: 25px;
+        z-index: 1;
+    }
+
+    .name h1:nth-of-type(2) {
+
+
+        left: 0;
+        top: 45px;
+        font-size: 25px;
+        z-index: 1;
+    }
+
+
+    .intro {
+
+        position: absolute;
+        width: 250px;
+        left: 26px;
+        top: 315px;
+    
+    }
+
+    .intro h3 {
+
+        overflow-y: hidden;
+    }
+
+    .social-media  {
+         
+        top: 110px;
+        z-index: 1;
+        left: 0;
+        
+    }
+
+    .social-media a  {
+        
+        font-size: 10px;
+    
+        
+    }
+    
+    
+    
+
+
 
 
     

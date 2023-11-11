@@ -5,7 +5,7 @@ import gmail from '../../assets/gmail.png'
 const Contact = () => {
     return (
 
-        <div className='contact-container'>
+        <div className='contact-container' id='contact'>
 
             <div className='contact-intro'>
 
@@ -45,9 +45,6 @@ const Contact = () => {
 
                     <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
                 </form>
-
-
-                <img src={gmail} alt='gmai icon' style={{width:'96px',height:'35px'}} />
 
 
 

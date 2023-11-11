@@ -7,7 +7,7 @@ import SkillCard from '../../components/SkillCard';
 
 const skill = () => {
   return (
-    <div className='skill-container'>
+    <div className='skill-container' id='skills'>
         <div className='skill-intro'>
         <h5>SKILLS</h5>
         <h3>What I Am Great At</h3>

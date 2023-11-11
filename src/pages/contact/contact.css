@@ -22,9 +22,21 @@
 
     border-radius: 10px;
     border: none;
+    height: 50px;
     background-color: #FFCE00;
+    font-size: 20px;
 
 
+}
+
+
+
+.contact-container button:hover {
+
+    background-color: #34353C;
+    border:  1px solid #FFCE00;
+    border-width: 1px;
+    color: #FFCE00;
 }
 
 .contact-container input::placeholder, .contact-container textarea::placeholder{
@@ -90,6 +102,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 @media screen and (max-width:720px) {
 
 
@@ -98,11 +112,13 @@
         align-items: center;
     }
 
+    
+
    
 
     .contact-container input, .contact-container textarea {
 
-        width: 200px;
+        width: 250px;
     }
 
     .contact-forms img {
@@ -112,14 +128,29 @@
 
     .contact-forms {
 
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+    flex-wrap: wrap;
+    display: flex;
+    width: min-content;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+    
 
     .contact-container button {
 
-        width: 200px;
+        width: 250px;
     }
+
+    .contact-intro {
+
+        width: auto;
+    }
+
+    
+
+
 
 
     

@@ -5,7 +5,7 @@ import ProjectCard from '../../components/ProjectCard';
 
 const Projects = () => {
   return (
-    <div className='project-container'>
+    <div className='project-container' id='projects'>
          <div className='project-intro'>
         <h5>My Project</h5>
         <h3>A Glimpse of My Work</h3>

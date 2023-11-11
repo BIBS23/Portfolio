@@ -4,7 +4,7 @@ import bibs from '../../assets/bibs.png';
 
 const Home = () => {
   return (
-    <div className='home-container'>
+    <div className='home-container' id='home'>
 
       <div className='name'>
         <h1>Bibin</h1>
@@ -15,12 +15,12 @@ const Home = () => {
       <div className='line'></div>
       <div className='social-media'>
         <div>
-          <a href=''>LinkedIn |</a>
-          <a href=''>Github</a>
+          <a href='https://www.linkedin.com/in/bibinjose23/'>LinkedIn |</a>
+          <a href='https://github.com/BIBS23'>Github</a>
         </div>
         <div>
-          <a href=''>Instagram |</a>
-          <a href=''>X</a>
+          <a href='https://www.instagram.com/iam_bibs_/'>Instagram |</a>
+          <a href='https://twitter.com/BIBS0623'>X</a>
         </div>
       </div>
 

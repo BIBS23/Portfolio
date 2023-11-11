@@ -9,3 +9,31 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width : 720px) {
+
+
+    .skill-card {
+
+        width: 90px;
+        height: 90px;
+        gap: 10px;
+    }
+
+
+    .skill-card img {
+
+        height: 40px;
+    
+    }
+    
+    .skill-card h5 {
+    
+        font-size: 12px;
+    
+    
+    }
+
+
+    
+}

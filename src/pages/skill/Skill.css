@@ -13,7 +13,7 @@
 
     color: white;
     padding: 10px;
-    font-size: 25px;
+    font-size: 24px;
     letter-spacing: 3px;
     font-family: 'Open Sans', sans-serif;
 
@@ -55,14 +55,23 @@
 
 @media screen and (max-width:720px) {
 
-    .skill-container {
+    
 
-        height: auto;
+    .skill-intro {
+
+        width: auto;
+        padding: 10px;
     }
+
+
 
     .skill-section1, .skill-section2 {
 
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px;
+        justify-content: center;
+        width: auto;
     }
 
 
