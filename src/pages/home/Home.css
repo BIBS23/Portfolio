@@ -145,6 +145,11 @@
 
 @media screen and (max-width: 720px) {
 
+    .home-container {
+
+        height: auto;
+    }
+
     
 
     .home-container img {
