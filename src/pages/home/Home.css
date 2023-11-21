@@ -143,11 +143,47 @@
     align-items: center;
 }
 
+.resumebtn {
+
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    background-color: transparent;
+    border: #FFCE00 solid 1px;
+    color: white;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: 0;
+   
+}
+
+.resumebtn a {
+
+ padding: 0;
+}
+
+
+.resumebtn a:focus {
+
+    color: #FFCE00;
+}
+
 @media screen and (max-width: 720px) {
 
     .home-container {
 
         height: 110vh;
+    }
+
+    .resumebtn {
+
+        width: 80px;
+        height: 25px;
     }
 
     

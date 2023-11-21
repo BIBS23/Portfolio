@@ -34,14 +34,7 @@ const Contact = () => {
                         <textarea class="form-control" id="form4Example3" rows="4" placeholder='Message'></textarea>
 
                     </div>
-
-
-                    <div class="form-check d-flex justify-content-left mb-4">
-                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-                        <label class="form-check-label" for="form4Example4">
-                            Send me a copy of this message
-                        </label>
-                    </div>
+                    
 
                     <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
                 </form>
