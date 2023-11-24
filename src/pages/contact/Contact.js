@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './contact.css';
-import gmail from '../../assets/gmail.png'
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_qiwl3ls', 'template_3eygnxl', form.current, '9wNrPPUlzm4R-Mnc8')
+          .then((result) => {
+
+              console.log(result.text);
+              e.target.reset();
+              alert('Email Sent !')
+             
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
     return (
 
         <div className='contact-container' id='contact'>
@@ -16,27 +35,27 @@ const Contact = () => {
 
             <div className='contact-forms'>
 
-                <form>
+                <form ref={form} onSubmit={sendEmail} >
 
                     <div class="form-outline mb-4">
-                        <input type="text" id="form4Example1" class="form-control" placeholder='Name' />
+                        <input type="text" id="form4Example1" class="form-control" placeholder='Name' name='from_name' />
 
                     </div>
 
 
                     <div class="form-outline mb-4">
-                        <input type="email" id="form4Example2" class="form-control" placeholder='Email' />
+                        <input type="email" id="form4Example2" class="form-control" placeholder='Email' name='your_email' />
 
                     </div>
 
 
                     <div class="form-outline mb-4">
-                        <textarea class="form-control" id="form4Example3" rows="4" placeholder='Message'></textarea>
+                        <textarea class="form-control" id="form4Example3" rows="4" placeholder='Message' name="message"></textarea>
 
                     </div>
                     
 
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                    <button type="submit" value="Send" class="btn btn-primary btn-block mb-4">Send</button>
                 </form>
 
 
