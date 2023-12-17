@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.af44f6d5.css",
-    "main.js": "/portfolio/static/js/main.a2a20319.js",
+    "main.css": "/portfolio/static/css/main.538fcc96.css",
+    "main.js": "/portfolio/static/js/main.0b452c6c.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/bibs.png": "/portfolio/static/media/bibs.abc7ae0983c7f22c482e.png",
     "static/media/p3.jpeg": "/portfolio/static/media/p3.91a6c70016c4d26037bf.jpeg",
     "static/media/p2.jpeg": "/portfolio/static/media/p2.3ac0b4e5ef5f541965f1.jpeg",
     "static/media/p1.jpg": "/portfolio/static/media/p1.f8578718fe8519ffb77d.jpg",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.e2aecd6d8f631b899adf.pdf",
+    "static/media/Bibin_Jose_Resume.pdf": "/portfolio/static/media/Bibin_Jose_Resume.5348cfc18a6bda67c742.pdf",
     "index.html": "/portfolio/index.html",
-    "main.af44f6d5.css.map": "/portfolio/static/css/main.af44f6d5.css.map",
-    "main.a2a20319.js.map": "/portfolio/static/js/main.a2a20319.js.map",
+    "main.538fcc96.css.map": "/portfolio/static/css/main.538fcc96.css.map",
+    "main.0b452c6c.js.map": "/portfolio/static/js/main.0b452c6c.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af44f6d5.css",
-    "static/js/main.a2a20319.js"
+    "static/css/main.538fcc96.css",
+    "static/js/main.0b452c6c.js"
   ]
 }
