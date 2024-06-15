@@ -7,6 +7,7 @@
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    align-items: center;
 
 }
 
@@ -110,6 +111,8 @@
     .contact-container {
 
         align-items: center;
+        align-content: center;
+    
     }
 
     

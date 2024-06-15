@@ -136,7 +136,7 @@
 
     width: auto;
     position: absolute;
-    top: 90px;
+    bottom: 0px;
     height: 700px;
     align-items: center;
 }
